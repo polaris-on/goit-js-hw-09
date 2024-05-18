@@ -24,7 +24,6 @@ function handleSubmit(event) {
         return;
     }
     
-    console.log('clear!');
     localStorage.removeItem(STORAGE_KEY);
     console.log(formData);
     formData = {};
